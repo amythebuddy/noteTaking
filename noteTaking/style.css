@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+.containerStyle{
+    margin: 2rem auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black solid;
+    box-shadow: 3px 3px grey;
+}
+.titleStyle,
+.saveBtn{
+    font-size: 1.25rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+.descStyle{
+    width: 10rem;
+    height: 5rem;
+}
+.saveBtn{
+    background-color: red;
+}
+#add{
+    background-color: darkblue;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+}
+.noteBox{
+    width: 20%;
+    border: 1px black solid;
+}
+.box{
+    display: flex;
+}
